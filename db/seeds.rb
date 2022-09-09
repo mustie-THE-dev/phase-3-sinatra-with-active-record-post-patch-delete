@@ -1,7 +1,7 @@
 puts "🌱 Seeding data..."
 
 # Make 10 users
-10.times do
+30.times do
   User.create(name: Faker::Name.name)
 end
 
